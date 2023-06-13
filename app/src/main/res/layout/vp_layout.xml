@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <include layout="@layout/toolbar"
+        android:id="@+id/tb_toolbar2"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_ns1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/baseline_maps_home_work_24"
+        android:text="@string/tv_ns"
+        android:gravity="start|center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:background="@drawable/custom_btn"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_hc2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/baseline_maps_home_work_24"
+        android:text="@string/tv_hc"
+        android:gravity="start|center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:background="@drawable/custom_btn"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_dt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/baseline_maps_home_work_24"
+        android:text="@string/tv_dt"
+        android:gravity="start|center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:background="@drawable/custom_btn"
+        />
+
+
+
+</LinearLayout>
